@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<!--
+		CMIS 410 Final Project
+		Contact Us Page
+		Your Name: Kraig Nelson
+		Today's Date: 3/25/2023
+		
+		Filename: contact.html
+	-->
+	
+	<title>Nelson's Snow Removal: Contact Us</title>
+	
+	<meta charset="utf-8" />  
+	<meta name="keywords" content="snow, snowplow, snowblow, snow removal" />
+	
+	<link href="css/stylesc.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+	<header>
+   
+		<a href="index.html">
+		<img src="images/NewNelsons.png" alt="Nelson's Snow Removal Logo" />
+		</a>
+		
+		<h1>NELSON'S SNOW REMOVAL</h1>
+		<h3>"We do it all so you dont have to!"</h3>
+	  
+	</header>
+	
+	<nav>
+	
+		<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="contact.html">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="services.html">Services</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="reviews.html">Reviews</a>
+		
+	</nav>
+
+	<section id="leftColumn">
+	
+		<img src="images/driveway.jfif" alt="Cleared Driveway" />
+		<img src="images/sidewalk.jfif" alt="Cleared Sidewalk" />
+		
+	</section>
+	
+	<section id="middleColumn">
+	
+		<h1>Contact Us</h1>
+		<p>
+			<a href="tel:+14021111111">Telephone: 1 (402) 111-1111</a> 
+		</p>
+		<p>
+			<a href="mailto:nelson@gmail.com">Email Us: nelson@gmail.com</a>
+		</p>
+		<a href="https://facebook.com">
+			<img src="images/facebook.png" alt="Facebook Logo" />
+		</a>
+		<a href="https://instagram.com">
+			<img src="images/instagram.png" alt="Instagram Logo" />
+		</a>
+	
+	</section>
+	
+	<section id="rightColumn">
+		
+		<form id="survey" action="http://www.example.com/nelson/survey" method="post">
+		<fieldset id="custInfo">
+			<legend>Customer Information</legend>
+			<div class="formRow">
+				<label for="name">Name</label>
+				<input name="custName" id="name" type="text" placeholder="First and Last Name"/>
+			</div>
+			<div class="formRow">
+				<label for="street">Street Address</label>
+				<input name="custStreet" id="street" type="text" />
+			</div>
+			<div class="formRow">
+				<label for="city">City</label>
+				<input name="custCity" id="city" type="text" value="Omaha"/>
+			</div>
+			<div class="formRow">
+				<label for="state">State</label>
+				<input name="custState" id="state" type="text" value="NE"/>
+			</div>
+			<div class="formRow">
+				<label for="zip">Postal Code</label>
+				<input name="custZip" id="zip" type="text" placeholder="00000-(0000)"/>
+			</div>
+			<div class="formRow">
+				<label for="phone">Phone Number</label>
+				<input name="custPhone" id="phone" type="tel" placeholder="(000) 000-0000"/>
+			</div>
+			<div class="formRow">
+				<label for="email">E-mail</label>
+				<input name="custEmail" id="mail" type="email" />
+			</div>
+			<input name="mailMe" id="mailCB" value="Yes" type="checkbox" />
+			<label for "mailCB">Check box to be added to our mailing list.</label>
+			<div class="formRow">
+				<label for="info">Where did you hear about us?<br />(Selct all that apply)</label>
+				<select name="infoSrc" id="info" size="5" multiple>
+					<option value="internet">Internet</option>
+					<option value="mag">Magazine</option>
+					<option value="news">Newspaper</option>
+					<option value="word">Word of Mouth</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+			<label for="commBox">Tell us more about your service needs.</label>
+			<textarea name="custExp" id="commBox"></textarea>
+		</fieldset>
+		<div id="buttons">
+			<input type="submit" value="Submit My Survey" />
+			<input type="reset" value="Cancel" />
+		</div>
+		</form>
+	</section>
+	
+	<footer>
+	
+		<h2>Nelson's Snow Removal</h2>
+		<p>21000 I Street &bull; Omaha, NE 68002</p>
+		<a href="https://facebook.com" target="_blank">Facebook</a> | 
+		<a href="https://instagram.com" target="_blank">Instagram</a> | 
+		<a href="tel:+14021111111">Telephone: 1 (402) 111-1111</a> | 
+		<a href="mailto:nelson@gmail.com">Email Us: nelson@gmail.com</a></p>
+		
+	</footer> 
+
+</body>
+
+</html>

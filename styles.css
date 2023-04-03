@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+/*
+	CMIS 410 Final Project
+	CSS File: index.html
+	Name: Kraig Nelson
+	Date: 3/25/2023
+*/
+
+/* HTML and Body Styles */
+
+html {
+	background-color: black;
+	font-family: Verdana, Geneva, Arial, sans-serif; 	
+}
+
+body {
+	background-color: black; 
+	font-family: Verdana, Geneva, Arial, sans-serif; 
+}
+
+/* Header Styles */
+
+body > header {   
+	padding:20px; 
+	background-color: orange;
+	text-align: center;
+}
+
+body > header img {
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+body > header h1 {
+	font-style: bold;
+	font-size: 45px;
+	font-family: Verdana;
+	padding-right: 160px;
+}
+
+body > header h3 {
+	font-style: italic;
+	font-size: 15px;
+	font-family: Verdana;
+	padding-right: 160px;
+}
+
+/* Navigation Styles */
+
+nav {
+   background-color: blue;
+   display: block;
+   font-family: Verdana;
+   font-size: 1em;
+   text-align: center;
+   padding: 5px;
+}  
+
+nav a:link, 
+nav a:visited {
+   color: black;
+}
+
+nav a:hover, 
+nav a:active {
+   background-color: black;
+   color: orange;
+}  
+
+/* Section Sytles */
+
+body > section#leftColumn {
+	background-color: grey;
+	float: left;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	width: 35%;  
+}
+
+body > section#leftColumn img {
+	width: 350px;
+}
+
+body > section#leftColumn h3 {
+	font-size: 10px;
+	font-style: italic;
+}
+
+body > section#rightColumn {
+	background-color: grey;
+	height: auto;
+	font-size: 10px;
+	font-style: italic;
+	text-align: center;
+	padding: 10px;
+}
+
+body > section#rightColumn img {
+	width: 500px;
+}
+
+/* Footer Styles */
+
+body > footer {
+	padding: 2px; 
+	background-color: orange; 
+	text-align: center;
+	line-height: 0.25em;
+}
+
+body > footer > h2 {
+	font-size: 20px;
+	font-style: bold;
+}
+
+body > footer > p {
+	font-size: 12.5px;
+}
+
+footer > a {
+	font-size: 12.5px;
+}
