@@ -3,7 +3,7 @@
 /*
 	CMIS 410 Final Project
 	CSS File: styles.css
-	HTML File: index.html
+	HTML File: services.html
 	Name: Kraig Nelson
 	Date: 3/25/2023
 */
@@ -23,9 +23,9 @@ body {
 /* Header Styles */
 
 body > header {   
-	border-radius: 40px;
 	padding:20px; 
 	background-color: orange;
+	border-radius: 40px;
 	text-align: center;
 	margin: 10px;
 }
@@ -54,14 +54,14 @@ body > header h3 {
 /* Navigation Styles */
 
 nav {
-	background-color: blue;
-	border-radius: 40px;
-	display: block;
-	font-family: Verdana;
-	font-size: 1em;
-	text-align: center;
-	margin: 10px;
-	padding: 5px;
+   background-color: blue;
+   border-radius: 40px;
+   display: block;
+   font-family: Verdana;
+   font-size: 1em;
+   text-align: center;
+   margin: 10px;
+   padding: 5px;
 }  
 
 nav a:link, 
@@ -77,47 +77,78 @@ nav a:active {
 
 /* Section Sytles */
 
-body > section#leftColumn {
-	background-color: grey;
-	float: left;
-	height: auto;
-	text-align: center;
-	padding: 10px;
-	width: 35%;  
-}
-
-body > section#leftColumn img {
-	width: 350px;
-	border-radius: 20px;
-	border: 5px outset white;
-}
-
-body > section#leftColumn h3 {
-	font-size: 10px;
-	font-style: italic;
-}
-
 body > section#rightColumn {
 	background-color: grey;
 	height: auto;
-	font-size: 10px;
-	font-style: italic;
 	text-align: center;
-	padding: 20px;
+	padding: 25px;
+	width: auto;  
 }
 
 body > section#rightColumn img {
-	width: 500px;
-	border-radius: 20px;
+	border-radius: 10px;
 	border: 5px outset white;
+	width: auto;
+}
+
+/* Table Styles */
+
+table.schedule {
+	background: grey;
+	border: 20px outset white;
+	border-collapse: collapse;
+	font-size: 1em;
+	float: left;
+	margin: 40px;
+	width: 65%;
+}
+
+/* Table Cell Styles */
+
+table.schedule th, table.schedule td {
+	border: 2px solid gray;
+	padding: 10px;
+	vertical-align: top;
+}
+
+/* Row Group Styles */
+
+table.schedule thead {
+	background: blue;
+	color: white;
+}
+
+table.schedule tfoot {
+	background: black;
+	color: white;
+}
+
+table.schedule thead tr {
+	height: 50px;
+}
+
+table.schedule tbody tr {
+	height: 60px;
+}
+
+/* Column Group Styles */
+
+col#firstCol {
+	background: rgb(218, 210, 218);
+	width: 16%;
+}
+
+col.dayCols {
+	background: white;
+	width: 12%;
 }
 
 /* Footer Styles */
 
 body > footer {
-	border-radius: 40px;
 	padding: 2px; 
 	background-color: orange; 
+	border-radius: 40px;
 	text-align: center;
 	line-height: 0.25em;
 	margin: 10px;

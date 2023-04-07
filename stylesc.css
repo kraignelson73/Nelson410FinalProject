@@ -2,7 +2,8 @@
 
 /*
 	CMIS 410 Final Project
-	CSS File: contact.html
+	CSS File: stylesc.css
+	HTML File: contact.html
 	Name: Kraig Nelson
 	Date: 3/25/2023
 */
@@ -24,17 +25,20 @@ body {
 body > header {   
 	padding:20px; 
 	background-color: orange;
+	border-radius: 40px;
 	text-align: center;
+	margin: 10px;
 }
 
 body > header img {
+	border-radius: 10px;
 	display: block;
 	width: 150px;
 	float: left;
 }
 
 body > header h1 {
-	font-style: bold;
+	font-weight: bold;
 	font-size: 45px;
 	font-family: Verdana;
 	padding-right: 160px;
@@ -51,10 +55,12 @@ body > header h3 {
 
 nav {
    background-color: blue;
+   border-radius: 40px;
    display: block;
    font-family: Verdana;
    font-size: 1em;
    text-align: center;
+   margin: 10px;
    padding: 5px;
 }  
 
@@ -82,6 +88,9 @@ body > section#leftColumn {
 
 body > section#leftColumn img {
 	width: auto;
+	border-radius: 20px;
+	border: 5px outset white;
+	margin: 40px;
 }
 
 body > section#middleColumn {
@@ -96,6 +105,7 @@ body > section#middleColumn {
 
 body > section#middleColumn img{
 	width: 150px;
+	border-radius: 20px;
 }
 
 body > section#rightColumn {
@@ -170,13 +180,15 @@ input[type='submit'], input[type='reset'] {
 body > footer {
 	padding: 2px; 
 	background-color: orange; 
+	border-radius: 40px;
 	text-align: center;
 	line-height: 0.25em;
+	margin: 10px;
 }
 
 body > footer > h2 {
 	font-size: 20px;
-	font-style: bold;
+	font-weight: bold;
 }
 
 body > footer > p {
