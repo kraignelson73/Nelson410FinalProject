@@ -5,11 +5,10 @@
 	CSS File: styles.css
 	HTML File: index.html
 	Name: Kraig Nelson
-	Date: 3/25/2023
+	Date: 4/15/2023
 */
 
 /* HTML and Body Styles */
-
 html {
 	background-color: black;
 	font-family: Verdana, Geneva, Arial, sans-serif; 	
@@ -21,7 +20,6 @@ body {
 }
 
 /* Header Styles */
-
 body > header {   
 	border-radius: 40px;
 	padding:20px; 
@@ -38,9 +36,11 @@ body > header img {
 }
 
 body > header h1 {
+	border-radius: 20px;
+	border: 5px outset white;
 	font-weight: bold;
-	font-size: 45px;
-	font-family: Verdana;
+	font-size: 50px;
+	font-family: URW Chancery L, cursive;
 	padding-right: 160px;
 }
 
@@ -52,21 +52,20 @@ body > header h3 {
 }
 
 /* Navigation Styles */
-
 nav {
 	background-color: blue;
 	border-radius: 40px;
 	display: block;
 	font-family: Verdana;
-	font-size: 1em;
+	font-size: 1.3em;
 	text-align: center;
 	margin: 10px;
 	padding: 5px;
 }  
 
-nav a:link, 
+nav a:link,
 nav a:visited {
-   color: black;
+   color: white;
 }
 
 nav a:hover, 
@@ -76,29 +75,30 @@ nav a:active {
 }  
 
 /* Section Sytles */
-
-body > section#leftColumn {
+body > section#leftSnowblower {
 	background-color: grey;
 	float: left;
+	display: block;
 	height: auto;
 	text-align: center;
 	padding: 10px;
 	width: 35%;  
 }
 
-body > section#leftColumn img {
+body > section#leftSnowblower img {
 	width: 350px;
 	border-radius: 20px;
 	border: 5px outset white;
 }
 
-body > section#leftColumn h3 {
+body > section#leftSnowblower h3 {
 	font-size: 10px;
 	font-style: italic;
 }
 
-body > section#rightColumn {
+body > section#rightSnowtruck {
 	background-color: grey;
+	display: block;
 	height: auto;
 	font-size: 10px;
 	font-style: italic;
@@ -106,21 +106,237 @@ body > section#rightColumn {
 	padding: 20px;
 }
 
-body > section#rightColumn img {
+body > section#rightSnowtruck img {
 	width: 500px;
 	border-radius: 20px;
 	border: 5px outset white;
 }
 
-/* Footer Styles */
+body > section#leftClearphotos {
+	background-color: grey;
+	display: block;
+	float: left;
+	height: auto;
+	text-align: center;
+	padding: 20px;
+	width: 31%;  
+}
 
+body > section#leftClearphotos img {
+	width: 380px;
+	border-radius: 20px;
+	border: 5px outset white;
+	margin-top: 15px;
+}
+
+body > section#middleContact {
+	background-color: grey;
+	display: block;
+	float: left;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	margin-top: 75px;
+	width: 30%; 
+	font-size: 20px;
+}
+
+body > section#middleContact img{
+	width: 90px;
+	border-radius: 20px;
+}
+
+body > section#rightSurvey {
+	background-color: grey;
+	display: block;
+	height: auto;
+	padding: 20px;
+}
+
+body > section#rightExtras {
+	background-color: grey;
+	display: block;
+	height: auto;
+	text-align: center;
+	padding: 20px;
+	width: auto;  
+}
+
+body > section#rightExtras img {
+	border-radius: 10px;
+	border: 5px outset white;
+	margin-top: 20px;
+	width: auto;
+}
+
+body > section#leftVideo {
+	background-color: grey;
+	float: left;
+	display: block;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	width: 45%;  
+}
+
+body > section#middleReviews {
+	background-color: grey;
+	float: left;
+	display: block;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	width: 25%; 
+}
+
+blockquote {
+	border: 2px solid orange;
+	color: white;
+	font-size: .7em;
+	font-family: Verdana, sans-serif;
+	margin: 0;
+}
+
+blockquote p {
+	
+	text-align: center;
+	font-size: 1em;
+	widows: 1;
+	orphans: 1;
+}
+
+body > section#rightUTV {
+	background-color: grey;
+	display: block;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	width: auto;  
+}
+
+body > section#rightUTV img {
+	border-radius: 10px;
+	border: 5px outset white;
+	margin-top: 15px;
+	width: auto;
+}
+
+/* Form Layout Styles */
+form#survey {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+form#survey > fieldset {
+	background-color: silver;
+	border-radius: 20px;
+	-webkit-flex: 1 1 300px;
+	flex: 1 1 300px;
+	font-size: 0.85em;
+	padding: 10px;
+	margin: 10px;
+}
+
+div.formRow {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	margin: 7px 0px;
+}
+
+div.formRow > * {
+	-webkit-flex: 1 1 150px;
+	flex: 1 1 150px;
+}
+
+/* Legend Styles */
+legend {
+	background-color: blue;
+	border-radius: 10px;
+	color: white;
+	padding: 5px;
+}
+
+/* Text Area Styles */
+textarea {
+	margin-top: 10px;
+	height: 100px;
+	width: 95%;
+}
+
+/* Form Button Styles */
+div#buttons {
+	text-align: center;
+	width: 100%;
+}
+
+input[type='submit'], input[type='reset'] {
+	border-radius: 10px;
+	font-size: 1.2em;
+	padding: 5px;
+	margin: 15px;
+}
+
+/* Table Styles */
+table.schedule {
+	background: grey;
+	border: 20px outset white;
+	border-collapse: collapse;
+	display: block;
+	font-size: 1em;
+	float: left;
+	margin: 40px;
+	width: 65%;
+}
+
+/* Table Cell Styles */
+table.schedule th, table.schedule td {
+	border: 2px solid gray;
+	padding: 10px;
+	vertical-align: top;
+}
+
+/* Row Group Styles */
+table.schedule thead {
+	background: blue;
+	color: white;
+}
+
+table.schedule tfoot {
+	background: black;
+	color: white;
+}
+
+table.schedule thead tr {
+	height: 50px;
+}
+
+table.schedule tbody tr {
+	height: 60px;
+}
+
+/* Column Group Styles */
+col#firstCol {
+	background: rgb(218, 210, 218);
+	width: 16%;
+}
+
+col.dayCols {
+	background: white;
+	width: 12%;
+}
+
+/* Footer Styles */
 body > footer {
 	border-radius: 40px;
-	padding: 2px; 
 	background-color: orange; 
 	text-align: center;
 	line-height: 0.25em;
 	margin: 10px;
+	padding: 2px; 
 }
 
 body > footer > h2 {
